@@ -7,7 +7,7 @@ public class Ping : SlashCommand
     public Ping()
     {
         name = "ping";
-        description = "Ping!";
+        description = "Check discord server latency!";
     }
 
     public override async Task Execute(SocketSlashCommand command)

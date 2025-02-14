@@ -10,6 +10,7 @@ namespace SlashCommandsHandler
         public required String description { get; set; }
         
         public SlashCommandOptionBuilder[]? OptionBuilder { get; set; }
+        public EmbedBuilder? EmbedBuilder { get; set; }
 
         public virtual async Task Execute(SocketSlashCommand command)
         {
