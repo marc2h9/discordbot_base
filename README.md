@@ -8,8 +8,9 @@ To get started with this base setup, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Open the solution file (`discordbot_base.sln`) in Visual Studio / Visual Studio Code.
-3. Update the `token.txt` file with your Discord bot token.
-4. Build the solution and run the bot.
+3. Make a `token.txt` file in the settings folder
+4. Update the `token.txt` file with your Discord bot token.
+5. Build the solution and run the bot.
 
 ## Features
 
@@ -32,6 +33,3 @@ To extend this base setup and build your own Discord bot, follow these steps:
 ## License
 
 This Discord bot base is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-# discordbot_base
-A base setup for a Discord.NET discord bot
