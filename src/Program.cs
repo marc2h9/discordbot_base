@@ -45,7 +45,7 @@ namespace Program
 
             foreach (var slashCommand in slashCommands.commands())
             {
-                if (slashCommand.name == command.Data.Name)
+                if (slashCommand != null && slashCommand.name == command.Data.Name)
                 {
                     await slashCommand.Execute(command);
                 }
@@ -78,7 +78,8 @@ namespace Program
                     }
 
                     await _client.CreateGlobalApplicationCommandAsync(commandBuilder.Build());
-                }
+                } 
+                    
             }
             catch(HttpException exception)
             {
